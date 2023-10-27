@@ -1,3 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); 
+
 body{
-    background:rgb(13,26,45)
+    background:rgb(13,26,45);
+    font-family: 'Open Sans', sans-serif;
 }
+
+
+.cardlist{
+ display: flex;
+ flex-direction: column;
+}
+.card{
+    cursor: pointer;
+    margin: auto;
+    background: rgb(19,39,63);
+    width: 100%;
+    height:100%;
+    border-radius: 15px;
+    transition: .5s ease-in-out;
+}
+.card:hover{
+    background: rgb(11, 23, 37);
+}
+.conteudo{
+    margin: auto;
+    padding: 20px;
+}
+.cards{
+    width: 100%;
+}
+
+.titulo{
+    font-size: 15px;
+}
+
+.letra{
+    color: white;
+}
+.valores{
+    font-weight: bold ;
+    color: rgb(0, 255, 248);
+}
+
+.icon{
+    margin-top: 2vh;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.money{
+    padding-left: 10px;
+}
+
+.separar{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(24, 46, 76);
+    display: flex;
+    justify-content: space-between;
+}
+
+.sombra{
+    margin: auto;
+    margin-top: 20vh;
+    background: rgb(8, 21, 40);
+    width: 18%;
+    height:55%;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.eu{
+    margin-left: 20px;
+    border: 1px solid white;
+    width: 3vh;
+    border-radius: 100%;
+}
+
+.letras{
+    color:rgb(101, 122, 153);
+}
+
+.author{
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.cards{
+    display: flex;
+}
+
+
+@media (max-width: 1660px) {
+    .cards
+    {
+        flex-direction: column;
+    }
+    .sombra{
+        width: 31%;
+        height:68%;
+    }
+    .letras{
+        font-size:1.2vw;
+    }
+    .valores{
+        font-size:1.2vw;
+    }   
+    .letra{
+        font-size:1.2vw;
+    }
+  }
+
+  .conjuntocard{
+    display: flex;
+    flex-direction: column;
+  }
